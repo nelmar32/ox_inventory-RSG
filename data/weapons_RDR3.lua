@@ -45,7 +45,7 @@ return {
         },
         -- PISTOL
         ['WEAPON_PISTOL_VOLCANIC'] = {
-            label = 'Pistola Volcanic',
+            label = 'Volcanic Pistol',
             weight = 1300,
             durability = 0.03,
             ammoname = 'ammo_pistol',
@@ -243,12 +243,12 @@ return {
             durability = 0.03,
         }, 
         ['WEAPON_MELEE_TORCH'] = {
-            label = 'Tocha',
+            label = 'Torch',
             weight = 300,
             durability = 0.03,
         }, 
         ['WEAPON_MELEE_HATCHET'] = {
-            label = 'Machadinho',
+            label = 'Hatchet',
             weight = 300,
             durability = 0.03,
         }, 
@@ -348,7 +348,7 @@ return {
         },
         
         ['WEAPON_THROWN_DYNAMITE'] = {
-            label = 'Dinamite',
+            label = 'Dynamite',
             weight = 300,
             durability = 0.03,
 			throwable = true,
@@ -360,7 +360,7 @@ return {
 			throwable = true,
         }, 
         ['WEAPON_THROWN_THROWING_KNIVES'] = {
-            label = 'Facas de Arremesso',
+            label = 'Throwing knives',
             weight = 300,
             durability = 0.03,
 			throwable = true,
@@ -378,7 +378,7 @@ return {
 			throwable = true,
         }, 
         ['WEAPON_THROWN_BOLAS'] = {
-            label = 'Bolas',
+            label = 'Throwable Bolas',
             weight = 300,
             durability = 0.03,
 			throwable = true,
@@ -465,11 +465,11 @@ return {
         },    
 
         ['ammo_arrow'] = {
-            label = 'Flechas',
+            label = 'Arrow',
             weight = 3,
         },
         ['ammo_arrow_fire'] = {
-            label = 'Flechas Flamejantes',
+            label = 'Fire Ammo',
             weight = 3,
         },
 
@@ -479,7 +479,7 @@ return {
         },
 
         ['ammo_revolver'] = {
-            label = 'Muniçao de Revolver',
+            label = 'Revolver Ammo',
             weight = 3,
         },
 
@@ -488,22 +488,22 @@ return {
             weight = 3,
         },
         ['ammo_pistol'] = {
-            label = 'Muniçao de Pistola',
+            label = 'Pistol Ammo',
             weight = 3,
         },
 
         ['ammo_shotgun'] = {
-            label = 'Muniçao de Shotgun',
+            label = 'Shotgun Ammo',
             weight = 3,
         },
 
         ['ammo_repeater'] = {
-            label = 'Muniçao de Repetidora',
+            label = 'Repeater Ammo',
             weight = 3,
         },
 
         ['ammo_rifle'] = {
-            label = 'Muniçao de Rifle',
+            label = 'Rifle Ammo',
             weight = 3,
         }
     }
