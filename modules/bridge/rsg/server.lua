@@ -44,6 +44,8 @@ local function setupPlayer(Player)
     server.setPlayerInventory(Player.PlayerData)
 
     Inventory.SetItem(Player.PlayerData.source, 'money', Player.PlayerData.money.cash)
+    Inventory.SetItem(Player.PlayerData.source, 'bread', 5)
+    Inventory.SetItem(Player.PlayerData.source, 'water', 5)
 
     RSGCore.Functions.AddPlayerMethod(Player.PlayerData.source, "AddItem", function(item, amount, slot, info)
         return Inventory.AddItem(Player.PlayerData.source, item, amount, info, slot)
